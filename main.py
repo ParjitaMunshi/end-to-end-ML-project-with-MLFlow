@@ -1,4 +1,4 @@
 
-from mlproject import logger  # Ensure this matches the package directory name
+from mlProject import logger
 
-logger.info("This is a test log message.")
+logger.info("Welcome to our custom logging")
