@@ -31,3 +31,50 @@ Traceback (most recent call last):
   File "D:\MY Work\end-to-end-ML-project-with-MLFlow\src\mlProject\utils\common.py", line 33, in read_yaml
     raise ValueError("yaml file is empty")
 ValueError: yaml file is empty
+[2024-06-08 13:20:26,783: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-08 13:20:26,788: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-08 13:23:04,261: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-08 13:23:04,264: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-08 13:29:00,164: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-08 13:29:00,177: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-08 13:29:00,180: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-08 13:29:00,182: INFO: common: created directory at: artifacts]
+[2024-06-08 13:29:00,185: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-08 13:29:00,781: INFO: 1624685146: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FDE2:3280F0:2064AEB:2462850:666494DB
+Accept-Ranges: bytes
+Date: Sat, 08 Jun 2024 17:29:00 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bos4663-BOS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1717867741.519811,VS0,VE98
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7ff57c5bd8d5c1dbadae16283e3a6492bc405852
+Expires: Sat, 08 Jun 2024 17:34:00 GMT
+Source-Age: 0
+
+]
+[2024-06-08 13:31:11,568: INFO: main: Welcome to our custom logging]
+[2024-06-08 13:31:11,570: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-08 13:31:11,570: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-08 13:31:11,583: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-08 13:31:11,584: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-08 13:31:11,584: INFO: common: created directory at: artifacts]
+[2024-06-08 13:31:11,584: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-08 13:31:11,585: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-06-08 13:31:11,589: INFO: main: >>>>>> stage Data Ingestion stage commpleted <<<<<<
+
+X==========X]
