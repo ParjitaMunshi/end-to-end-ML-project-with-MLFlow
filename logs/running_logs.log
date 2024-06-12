@@ -269,3 +269,187 @@ Traceback (most recent call last):
   File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 639, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 404: Not Found
+[2024-06-11 17:16:34,186: INFO: main: Welcome to our custom logging]
+[2024-06-11 17:16:34,199: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-11 17:16:34,223: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-11 17:16:34,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-11 17:16:34,240: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-11 17:16:34,241: INFO: common: created directory at: artifacts]
+[2024-06-11 17:16:34,242: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-11 17:16:34,665: ERROR: main: HTTP Error 404: Not Found]
+Traceback (most recent call last):
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\main.py", line 13, in <module>
+    obj.main()
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\src\mlProject\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\src\mlProject\components\data_ingestion.py", line 17, in download_file
+    filename, headers =request.urlretrieve(
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2024-06-11 17:23:40,675: INFO: main: Welcome to our custom logging]
+[2024-06-11 17:23:40,682: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-11 17:23:40,686: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-11 17:23:40,687: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-11 17:23:40,694: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-11 17:23:40,695: INFO: common: created directory at: artifacts]
+[2024-06-11 17:23:40,696: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-11 17:23:41,127: ERROR: main: HTTP Error 404: Not Found]
+Traceback (most recent call last):
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\main.py", line 13, in <module>
+    obj.main()
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\src\mlProject\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\src\mlProject\components\data_ingestion.py", line 17, in download_file
+    filename, headers =request.urlretrieve(
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2024-06-11 17:24:04,935: INFO: main: Welcome to our custom logging]
+[2024-06-11 17:24:04,936: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-11 17:24:04,938: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-11 17:24:04,938: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-11 17:24:04,939: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-11 17:24:04,940: INFO: common: created directory at: artifacts]
+[2024-06-11 17:24:04,943: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-11 17:24:05,173: ERROR: main: HTTP Error 404: Not Found]
+Traceback (most recent call last):
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\main.py", line 13, in <module>
+    obj.main()
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\src\mlProject\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\src\mlProject\components\data_ingestion.py", line 17, in download_file
+    filename, headers =request.urlretrieve(
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2024-06-11 17:25:38,555: INFO: main: Welcome to our custom logging]
+[2024-06-11 17:25:38,556: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-11 17:25:38,557: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-11 17:25:38,558: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-11 17:25:38,559: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-11 17:25:38,559: INFO: common: created directory at: artifacts]
+[2024-06-11 17:25:38,560: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-11 17:25:38,860: ERROR: main: HTTP Error 404: Not Found]
+Traceback (most recent call last):
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\main.py", line 13, in <module>
+    obj.main()
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\src\mlProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\src\mlProject\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2024-06-11 17:36:06,353: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-11 17:36:06,368: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-11 17:36:06,384: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-11 17:36:06,387: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-11 17:36:06,389: INFO: common: created directory at: artifacts]
+[2024-06-11 17:36:06,389: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-11 17:36:06,724: ERROR: main: HTTP Error 404: Not Found]
+Traceback (most recent call last):
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\src\mlProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "D:\MY Work\end-to-end-ML-project-with-MLFlow\src\mlProject\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\parjita\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
