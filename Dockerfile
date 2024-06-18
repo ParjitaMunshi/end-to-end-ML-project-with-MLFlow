@@ -1,5 +1,5 @@
 
-FROM python: 3.8-slim-buster
+FROM python:3.8-slim-buster
 
 RUN apt ypdate -y && apt install awscli -y
 WORKDIR /app
