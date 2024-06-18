@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MY%20Work/end-to-end-ML-project-with-MLFlow/mlruns/0/4ebcb3c42e764413a4089809dbfbe750/artifacts
+end_time: 1718676993435
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ebcb3c42e764413a4089809dbfbe750
+run_name: indecisive-shoat-905
+run_uuid: 4ebcb3c42e764413a4089809dbfbe750
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718676990077
+status: 3
+tags: []
+user_id: parjita

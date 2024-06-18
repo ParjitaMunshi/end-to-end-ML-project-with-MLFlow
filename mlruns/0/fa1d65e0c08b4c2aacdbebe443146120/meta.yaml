@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MY%20Work/end-to-end-ML-project-with-MLFlow/mlruns/0/fa1d65e0c08b4c2aacdbebe443146120/artifacts
+end_time: 1718677017930
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa1d65e0c08b4c2aacdbebe443146120
+run_name: inquisitive-cow-832
+run_uuid: fa1d65e0c08b4c2aacdbebe443146120
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718677014448
+status: 3
+tags: []
+user_id: parjita

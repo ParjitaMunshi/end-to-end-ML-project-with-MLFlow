@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MY%20Work/end-to-end-ML-project-with-MLFlow/mlruns/0/1ed63c02cbdc4e90af96034534fddcf3/artifacts
+end_time: 1718677102286
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ed63c02cbdc4e90af96034534fddcf3
+run_name: auspicious-midge-966
+run_uuid: 1ed63c02cbdc4e90af96034534fddcf3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718677092659
+status: 3
+tags: []
+user_id: parjita
