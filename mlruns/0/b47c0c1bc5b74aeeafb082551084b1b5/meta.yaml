@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MY%20Work/end-to-end-ML-project-with-MLFlow/mlruns/0/b47c0c1bc5b74aeeafb082551084b1b5/artifacts
+end_time: 1718679713013
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b47c0c1bc5b74aeeafb082551084b1b5
+run_name: resilient-gull-461
+run_uuid: b47c0c1bc5b74aeeafb082551084b1b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718679704284
+status: 3
+tags: []
+user_id: parjita
